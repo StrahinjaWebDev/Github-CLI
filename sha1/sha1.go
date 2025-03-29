@@ -43,7 +43,7 @@ func sha1Sum(fileName string) (string, error) {
 		gz, err := gzip.NewReader(file)
 
 		if err != nil {
-			return "", nil
+			return "", err
 		}
 
 		defer file.Close()
