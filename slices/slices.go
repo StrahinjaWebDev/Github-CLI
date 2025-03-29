@@ -5,8 +5,6 @@ import (
 	"sort"
 )
 
-// 22:47
-
 func main() {
 	var s []int // s is a slice of int
 	fmt.Println("len", len(s))
