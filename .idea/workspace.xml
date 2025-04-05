@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca499df6-194a-434c-879f-fc7f45c35db2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/game/game.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/http.log.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sha1.go" beforeDir="false" afterPath="$PROJECT_DIR$/sha1/sha1.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slices/slices.go" beforeDir="false" afterPath="$PROJECT_DIR$/slices/slices.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/freg/freq.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/freg/sherlock.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +18,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Go File" />
+        <option value="Go Application" />
       </list>
     </option>
   </component>
@@ -34,32 +34,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultGoTemplateProperty": "Go File",
-    "Go Build.go build game.go.executor": "Run",
-    "Go Build.go build github.go.executor": "Run",
-    "Go Build.go build sha1.go.executor": "Run",
-    "Go Build.go build slices.go.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.go.formatter.settings.were.checked": "true",
-    "RunOnceActivity.go.migrated.go.modules.settings": "true",
-    "git-widget-placeholder": "main",
-    "go.import.settings.migrated": "true",
-    "go.sdk.automatically.set": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "run.configurations.included.in.services": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultGoTemplateProperty&quot;: &quot;Go Application&quot;,
+    &quot;Go Build.go build div.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build empty.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build game.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build github.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build sha1.go.executor&quot;: &quot;Run&quot;,
+    &quot;Go Build.go build slices.go.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
+    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Vujin\Desktop\Golang practise next lesson 7\freg" />
       <recent name="C:\Users\Vujin\Desktop\Golang practise next lesson 4\sha1" />
     </key>
   </component>
@@ -74,7 +77,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build game.go">
+  <component name="RunManager" selected="Go Build.go build div.go">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="New folder" />
       <working_directory value="$PROJECT_DIR$" />
@@ -84,20 +87,28 @@
       <filePath value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build div.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="New folder" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/div/div.go" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build empty.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="New folder" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$/empty/empty.go" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build game.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="New folder" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/game/game.go" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build github.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="New folder" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$/github/github.go" />
       <method v="2" />
     </configuration>
     <configuration name="go build sha1.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
@@ -128,10 +139,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build div.go" />
+        <item itemvalue="Go Build.go build empty.go" />
         <item itemvalue="Go Build.go build game.go" />
         <item itemvalue="Go Build.go build slices.go" />
         <item itemvalue="Go Build.go build sha1.go" />
-        <item itemvalue="Go Build.go build github.go" />
       </list>
     </recent_temporary>
   </component>
@@ -154,6 +166,8 @@
       <workItem from="1742684197869" duration="260000" />
       <workItem from="1743251414386" duration="393000" />
       <workItem from="1743251861724" duration="14819000" />
+      <workItem from="1743337741386" duration="7368000" />
+      <workItem from="1743768376041" duration="2896000" />
     </task>
     <servers />
   </component>
